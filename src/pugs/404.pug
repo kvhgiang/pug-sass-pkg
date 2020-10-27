@@ -1,0 +1,11 @@
+extend ./parts/layout.pug
+
+prepend meta 
+    title Namtech - 404
+
+block main-wrapper
+    h1 404 Page not found
+    h2
+        a(href="/")
+            i.fa.fa-arrow-circle-left(style="margin-right: .5rem;")
+            | Back to the Home page

@@ -1,0 +1,21 @@
+/* 
+ *  Theme variables 
+ */
+$primary-color: #ce2028;
+$secondary-color: gray;
+$light-color: white;
+$dark-color: grey;
+$text-color: black;
+
+/* 
+ *  Fonts define 
+ */
+@font-face {
+    font-family: graphik-reg;
+    src: url("../fonts/Graphik-Font/Graphik-Regular.otf");
+}
+
+@font-face {
+    font-family: graphik-bold;
+    src: url("../fonts/Graphik-Font/Graphik-Bold.otf");
+}

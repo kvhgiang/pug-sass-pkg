@@ -1,0 +1,134 @@
+/*
+ *  Reset
+ */
+body {
+    background-color: $light-color;
+    color: $text-color;
+    overflow-x: hidden;
+    font-family: graphik-reg;
+}
+
+ul {
+    padding: 0;
+    li {
+        list-style: none;
+        margin-bottom: .5rem;
+    }
+}
+
+a {
+    color: $primary-color;
+    transition: all .5s ease;
+    
+    &:hover {
+        opacity: .75;
+        text-decoration: none;
+        color: $primary-color;
+    }
+}
+
+/*
+ *  Common class
+ */
+.dflex {
+    display: flex;
+
+    &--default {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &--col {
+        flex-direction: column;
+    }
+}
+
+.text {
+    &--primary {
+        color: $primary-color;
+    }
+}
+
+.align {
+    &--left {
+        text-align: left;
+    }
+
+    &--right {
+        text-align: right;
+    }
+
+    &--center {
+        text-align: center;
+    }
+}
+
+/*
+ *  Animations
+ */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(1rem);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounceUp{
+    from {
+        transform: translateY(0);
+    }
+    25%  {
+        transform: translateY(-.65rem);        
+    }
+    50%  {
+        transform: translateY(2.5rem);        
+    }
+    to   {
+        transform: translateY(0);
+    }
+}
+
+.fade {
+    &--in {
+        animation-name: fadeIn;
+        animation-duration: 1.5s;
+    }
+}
+
+.slide {
+    &--up {
+        animation-name: slideUp, fadeIn;
+        animation-duration: 1s, 1.5s;
+    }
+}
+
+.bounce {
+    &--up {
+        animation-name: bounceUp;
+        animation-duration: 1.5s;
+    }
+}
+
+@mixin logo--special($st, $ft) {
+    animation-name: slideUp, fadeIn;
+    animation-timing-function: ease, ease;
+    animation-duration: $st, $ft;
+}
+
+@mixin slide--up($st, $ft) {
+    animation-name: slideUp, fadeIn;
+    animation-duration: $st, $ft;
+    animation-timing-function: ease, ease;
+}

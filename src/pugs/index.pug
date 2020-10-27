@@ -1,0 +1,22 @@
+extends ./parts/layout.pug
+
+prepend meta
+    title Namtech - Home
+    
+block main-wrapper
+    img(src="assets/imgs/logo-short-a.svg")
+    h1 
+        span Welcome to
+        span Namtech
+    h2 This is a template helping you to make the great projects.
+    div.content
+        - 
+            let link = [
+                {href: "https://namtechweb.namtech.xyz/", label: "Visit the official website", target: "_blank"},
+                {href: "https://hackmd.io/@Namtech/namtech-document", label: "Read document", target: "_blank"},
+                {href: "/404.html", label: 'Redirect to 404 page'}
+            ]
+        ul
+            for data in link
+                li  
+                    a(href=data.href, target=data.target ? data.target : "")= data.label
