@@ -1,0 +1,81 @@
+
+$container-max-widths: (
+  md: 768px,
+  lg: 960px,
+  xl: 1140px
+);
+
+$font-family-sans-serif:      'Cabin', sans-serif;
+
+$white    : #ffffff;
+
+$blue     : #2F50FB;
+$blue-dark: #101841;
+
+$gray-61  : #616161;
+$gray-70  : #707070;
+$gray-CE  : #CECECE;
+$gray-F4  : #F4F2ED;
+$gray-FB  : #FBFAF8;
+$gray-BD  : #BDBDBD;
+
+$black    : #000000;
+$black-19 : #191919;
+$black-42 : #424242;
+
+$yellow-FA : #FAE16A;
+$yellow-ED : #EDB62B;
+$yellow-FF : #FFF4BF;
+
+$orange : #E37D2B;
+$orange-F5 : #F5EDE0;
+
+$green  : #34C759;
+
+$red    : #FF3B30;
+
+$warning: $orange;
+$text-muted : $gray-BD;
+
+$body-bg    : $gray-F4;
+$body-color : $black-42;
+
+$link-active-color: $blue;
+
+$navbar-light-color:          $black-19;
+$navbar-light-active-color:   $link-active-color;
+$navbar-nav-link-padding-x:   1rem;
+
+
+$list-group-active-color:        $orange;
+$list-group-active-bg:           $white;
+$list-group-active-border-color: rgba($black, .125);
+$list-group-item-padding-y:      22px;
+$list-group-item-padding-x:      20px;
+
+
+$custom-control-indicator-checked-color: $green;
+$custom-control-indicator-checked-bg:    $white;
+
+$pagination-color:        $orange;
+$pagination-border-width: 0;
+
+$custom-control-indicator-size : 1.5rem;
+$custom-control-indicator-border-color:  $gray-70;
+
+$card-spacer-x : 0;
+$card-border-color: $gray-CE;
+
+$input-bg: $gray-FB;
+$border-radius: 10px;
+
+$input-btn-padding-y: 0.625rem;
+$input-btn-padding-x: 1.125rem;
+
+$tooltip-font-size: 12px;
+
+$custom-select-bg-size: 18px 18px;
+$custom-select-indicator-color: $orange;
+$custom-select-indicator: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 16l-6-6h12z" fill="#{$custom-select-indicator-color}"/></svg>');
+
+$tooltip-bg: $orange;

@@ -1,0 +1,14 @@
+// Google font
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
+// Custom variable & override Bootstrap 4
+@import "includes/variables";
+@import "includes/mixins";
+
+// Required
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+// Bootstrap
+@import "bootstrap/bootstrap";

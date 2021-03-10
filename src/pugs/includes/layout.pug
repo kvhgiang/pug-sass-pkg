@@ -1,0 +1,22 @@
+doctype html
+head
+  meta(http-equiv='Content-Type' content='text/html; charset=UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  meta(name='description' content='')
+  block title
+    title= `${pageTitle}  | CABSY`
+  link(href="assets/images/favicon.png" rel="icon")
+  script(src="https://kit.fontawesome.com/380d67b9f1.js" crossorigin="anonymous")
+  link(href='assets/css/style.css' rel='stylesheet')
+body
+  include header.pug
+
+  main(role='main')
+    .container
+      block main
+  
+  include footer.pug
+
+  block script
+  script(src='assets/js/script.js')
+  

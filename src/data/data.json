@@ -1,0 +1,531 @@
+{
+	"DESC": [
+		"Schools are a busy place and the last thing they need is to have someone operate multiple 3D printers printing hundreds of student projects.",
+		"Besides the expense of buying 5 or more printers, there are ongoing labor, repair and running costs.",
+		"Prints can fail and unless you have someone monitoring the jobs, you could waste valuable time reprinting."
+	],
+	"FOOTER_CONTACT_METHOD": [
+		{
+			"href": "https://goo.gl/maps/LKKLuy6WxJ6nbjux6",
+			"text": "497 Albert Rd. Melbourne, VIC 3000"
+		},
+		{
+			"href": "tel:+44345678903",
+			"text": "+44 345 678 903"
+		},
+		{
+			"href": "mailto:tinkersteps@gmail.com",
+			"text": "tinkersteps@gmail.com"
+		}
+	],
+	"FOOTER_QUICK_LINKS": [
+		{
+			"href": "about.html",
+			"text": "About Us"
+		},
+		{
+			"href": "contact.html",
+			"text": "Contact"
+		},
+		{
+			"href": "terms-and-conditions.html",
+			"text": "Terms & Conditions"
+		}
+	],
+	"FOOTER_SOCIAL": [
+		{
+			"icon": "facebook-fill",
+			"text": "Facebook"
+		},
+		{
+			"icon": "twitter-fill",
+			"text": "Twitter"
+		},
+		{
+			"icon": "instagram-fill",
+			"text": "Instagram"
+		}
+	],
+	"MENU_LEFT": [
+		{
+			"text": "Home",
+			"href": "./"
+		},
+		{
+			"text": "About",
+			"href": "about.html"
+		},
+		{
+			"text": "Pricing",
+			"href": "pricing.html"
+		},
+		{
+			"text": "Contact",
+			"href": "contact.html"
+		}
+	],
+	"MENU_RIGHT_ADMIN": [
+		{
+			"text": "Print Orders",
+			"href": "admin-orders.html"
+		},
+		{
+			"text": "Lesson Plans",
+			"href": "admin-lessons.html"
+		},
+		{
+			"text": "Teachers",
+			"href": "admin-teachers.html"
+		},
+		{
+			"text": "Settings",
+			"href": "admin-setting.html"
+		},
+		{
+			"href": "admin-notification.html",
+			"icon": "notification-2-fill"
+		},
+		{
+			"href": "account-setting.html",
+			"icon": "user-3-fill"
+		}
+	],
+	"MENU_RIGHT_TEACHER": [
+		{
+			"text": "Projects",
+			"href": "teacher-projects.html"
+		},
+		{
+			"text": "Lesson Plans",
+			"href": "teacher-lessons.html"
+		},
+		{
+			"text": "Feedback",
+			"href": "teacher-feedback.html"
+		},
+		{
+			"href": "teacher-notification.html",
+			"icon": "notification-2-fill"
+		},
+		{
+			"href": "account-setting.html",
+			"icon": "user-3-fill"
+		}
+	],
+	"NAV_LEFT": [
+		{
+			"text": "Print Orders",
+			"href": "teacher-dashboard-orders.html",
+			"icon": "file-copy-2-fill",
+			"isAdmin": true
+		},
+		{
+			"text": "Projects",
+			"href": "teacher-dashboard-flow2-projects.html",
+			"icon": "file-copy-2-fill",
+			"isStudent": true
+		},
+		{
+			"text": "Lesson Plans",
+			"href": "teacher-dashboard-lessons.html",
+			"icon": "book-open-line",
+			"isAdmin": true,
+			"isStudent": true
+		},
+		{
+			"text": "Teachers",
+			"href": "teacher-dashboard-teachers.html",
+			"icon": "group-fill",
+			"isAdmin": true
+		},
+		{
+			"text": "Settings",
+			"href": "teacher-dashboard-setting.html",
+			"icon": "settings-5-line",
+			"isAdmin": true
+		},
+		{
+			"text": "Feedback",
+			"href": "feedback.html",
+			"icon": "mail-send-line",
+			"isStudent": true
+		}
+	],
+	"NOTI": [
+		"Stacy has submitted a file for project ",
+		"Tony has submitted a file for project ",
+		"Lily has submitted a file for project ",
+		"Casey has submitted a file for project ",
+		"Brad has submitted a file for project ",
+		"Anna has submitted a file for project "
+	],
+	"PROJECT_CONSTRAINTS": [
+		{
+			"title": "Student Budget",
+			"value": "$ 10"
+		},
+		{
+			"title": "Dimension Limits",
+			"value": "Large (W 120mm, L 120mm, H 120mm)"
+		},
+		{
+			"title": "Material:",
+			"value": "PLA"
+		},
+		{
+			"title": "Layer Height",
+			"value": "0.2"
+		}
+	],
+	"PROJECT_NEW_STEP2": [
+		{
+			"id": "budget",
+			"label": {
+				"text": "Per Student Budget",
+				"msg": "Assign a $ amount per student",
+				"tooltipInnerStyle": {
+					"left": 0
+				},
+				"tooltipArrowStyle": {
+					"top": 10
+				}
+			},
+			"placeholder": "$"
+		},
+		{
+			"id": "limit",
+			"label": {
+				"text": "Dimension Limit"
+			},
+			"options": [
+				"Small",
+				"Large"
+			],
+			"desc": {
+				"id": "limitHelp",
+				"text": "<p class='text-right'>Length(y) Limit: <span class='d-inline-block mr-4'>20mm</span> Height(z) Limit: <span class='d-inline-block mr-4'>20mm</span> Width(x) Limit: <span class='d-inline-block'>20mm</span></p>"
+			}
+		},
+		{
+			"id": "material",
+			"label": {
+				"text": "Material"
+			},
+			"options": [
+				"PLA"
+			]
+		},
+		{
+			"id": "height",
+			"label": {
+				"text": "Layer Height"
+			},
+			"options": [
+				0.2,
+				0.5
+			]
+		},
+		{
+			"id": "infill",
+			"label": {
+				"text": "Infill"
+			},
+			"options": [
+				"40%",
+				"50%"
+			]
+		},
+		{
+			"id": "total",
+			"label": {
+				"text": "Total Project Budget",
+				"msg": "Delivery fee is $15 per order.<br>This will let you know if total cost is over budget limit in review window.",
+				"tooltipInnerStyle": {
+					"left": 0
+				},
+				"tooltipArrowStyle": {
+					"top": 10
+				}
+			},
+			"value": "$ 200"
+		}
+	],
+	"PROJECT_NEW_STEP3": [
+		{
+			"name": "Project Summary",
+			"list": [
+				{
+					"title": "Project Name:",
+					"value": "Design Challenge Term 2"
+				},
+				{
+					"title": "Project Submission Deadline:",
+					"value": "24/04/2021"
+				},
+				{
+					"title": "School:",
+					"value": "High School 1"
+				},
+				{
+					"title": "Class:",
+					"value": "9B"
+				},
+				{
+					"title": "Teacher:",
+					"value": "Jessica Brown"
+				},
+				{
+					"title": "Subject Covered:",
+					"value": "Science, Math"
+				}
+			]
+		},
+		{
+			"name": "Model Constraints",
+			"list": [
+				{
+					"title": "Per Student Budget:",
+					"value": "$ 10"
+				},
+				{
+					"title": "Dimension Limit:",
+					"value": "W 120mm, L 120mm, H 120mm"
+				},
+				{
+					"title": "Set Material:",
+					"value": "PLA"
+				},
+				{
+					"title": "Set Layer Height:",
+					"value": "0.2"
+				},
+				{
+					"title": "Set Infill:",
+					"value": "No"
+				},
+				{
+					"title": "Total Project Budget:",
+					"value": "$ 200"
+				}
+			]
+		}
+	],
+	"PROJECT_TAGS": [
+		{
+			"name": "Art"
+		},
+		{
+			"name": "Design",
+			"isActive": true
+		},
+		{
+			"name": "Hums"
+		},
+		{
+			"name": "Math",
+			"isActive": true
+		},
+		{
+			"name": "English"
+		},
+		{
+			"name": "Science"
+		},
+		{
+			"name": "Tech"
+		},
+		{
+			"name": "Woodworking",
+			"isActive": true
+		}
+	],
+	"STUDENT_SUBMISSIONS": [
+		{
+			"state": "enabled",
+			"file": "Lily Virus Model",
+			"name": "L.A.",
+			"time": "1 hrs 43 mins",
+			"gram": "43",
+			"cost": "5.34"
+		},
+		{
+			"state": "enabled",
+			"file": "Idea Virus Model",
+			"name": "I.B.",
+			"time": "20 mins",
+			"gram": "3",
+			"cost": "2"
+		},
+		{
+			"state": "enabled",
+			"file": "Stacey Controller",
+			"name": "C.G.",
+			"time": "1 hr",
+			"gram": "20",
+			"cost": "4"
+		},
+		{
+			"state": "disabled",
+			"file": "Tony Virus Model",
+			"name": "S.S.",
+			"time": "1 hr 20 mins",
+			"gram": "25",
+			"cost": "5"
+		},
+		{
+			"state": "none",
+			"file": "Idea Virus Model",
+			"name": "I.M.",
+			"time": "1 hr",
+			"gram": "32",
+			"cost": "5"
+		},
+		{
+			"state": "enabled",
+			"file": "Box Controller",
+			"name": "I.B.",
+			"time": "1 hr",
+			"gram": "21",
+			"cost": "5"
+		},
+		{
+			"state": "enabled",
+			"file": "Lily Virus Model",
+			"name": "L.A.",
+			"time": "1 hrs 43 mins",
+			"gram": "43",
+			"cost": "5.34"
+		},
+		{
+			"state": "enabled",
+			"file": "Idea Virus Model",
+			"name": "I.B.",
+			"time": "20 mins",
+			"gram": "3",
+			"cost": "2"
+		},
+		{
+			"state": "enabled",
+			"file": "Stacey Controller",
+			"name": "C.G.",
+			"time": "1 hr",
+			"gram": "20",
+			"cost": "4"
+		}
+	],
+	"SUBMISSION_SUMMARY": [
+		{
+			"list": [
+				{
+					"title": "Name:",
+					"value": "S.T."
+				},
+				{
+					"title": "School:",
+					"value": "Highschool 1"
+				},
+				{
+					"title": "Teacher:",
+					"value": "Jessica Jones"
+				},
+				{
+					"title": "Class:",
+					"value": "9B"
+				}
+			]
+		},
+		{
+			"list": [
+				{
+					"title": "Project Title:",
+					"value": "Design Challenge Term 2"
+				},
+				{
+					"title": "Project Due Date:",
+					"value": "24/04/2021"
+				}
+			]
+		},
+		{
+			"list": [
+				{
+					"title": "Total Print Time:",
+					"value": "2 hrs",
+					"isBold": true
+				},
+				{
+					"title": "Total Grams Used:",
+					"value": "56 g",
+					"isBold": true
+				},
+				{
+					"title": "Total Cost:",
+					"value": "$ 9",
+					"isBold": true
+				}
+			]
+		}
+	],
+	"SUBMITTED_SUMMARY": [
+		{
+			"title": "Class Name:",
+			"value": "9B"
+		},
+		{
+			"title": "Teacher:",
+			"value": "Jessica Jones"
+		},
+		{
+			"title": "Quantity:",
+			"value": "1"
+		},
+		{
+			"title": "Technology:",
+			"value": "FDM"
+		},
+		{
+			"title": "Material:",
+			"value": "PLA"
+		},
+		{
+			"title": "Layer Height:",
+			"value": "PLA"
+		},
+		{
+			"title": "Total Cost:",
+			"value": "$ 9",
+			"isBold": true
+		}
+	],
+	"TEACHER_DASHBOARD_ORDERS": [
+		{
+			"school": "Melbourne Grammer",
+			"isPaid": true,
+			"isSent": true
+		},
+		{
+			"school": "Mentone Grammer"
+		},
+		{
+			"school": "Another School",
+			"isSent": true
+		}
+	],
+	"_MENU_RIGHT": [
+		{
+			"text": "Dashboard",
+			"href": "teacher-dashboard-orders.html",
+			"icon": "dashboard-fill"
+		},
+		{
+			"text": "Notifications",
+			"href": "teacher-dashboard-notification.html",
+			"icon": "notification-2-fill"
+		},
+		{
+			"text": "Account",
+			"href": "pricing.html",
+			"icon": "user-fill"
+		}
+	]
+}

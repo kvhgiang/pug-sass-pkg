@@ -1,0 +1,12 @@
+# Node package modules folder
+node_modules
+
+# All of rendered folder
+build
+dev
+exported
+
+# All of files below
+package-lock.json
+.env
+*.log
